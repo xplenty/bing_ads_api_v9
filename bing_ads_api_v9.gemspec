@@ -32,6 +32,7 @@ Gem::Specification.new do |s|
   s.email = ['adrien@rambert.me']
   s.require_path = 'lib'
   s.files = Dir.glob('{lib,test}/**/*') + %w(rakefile.rb README.md)
+  s.license = 'MIT'
 
   s.add_dependency('activesupport', '>= 3.1.0')
   s.add_dependency('google-ads-common', '~> 0.9.3')
