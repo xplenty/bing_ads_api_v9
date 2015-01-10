@@ -27,9 +27,9 @@ Gem::Specification.new do |s|
   s.version = BingAdsApi::ApiConfig::CLIENT_LIB_VERSION
   s.summary = 'Ruby wrapper for Bing Ads API v9'
   s.description = 'Ruby wrapper for Bing Ads API v9'
-  s.homepage = 'https://github.com/arambert/bing_ads_api'
-  s.authors = ['Adrien Rambert']
-  s.email = ['adrien@rambert.me']
+  s.homepage = 'https://github.com/tomhammond/bing_ads_api_v9'
+  s.authors = ['Tom Hammond']
+  s.email = ['thomas.hammond89@gmail.com']
   s.require_path = 'lib'
   s.files = Dir.glob('{lib,test}/**/*') + %w(rakefile.rb README.md)
   s.license = 'MIT'
