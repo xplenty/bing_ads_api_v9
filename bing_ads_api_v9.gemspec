@@ -23,10 +23,10 @@ $:.unshift lib unless $:.include?(lib)
 require 'bing_ads_api/version'
 
 Gem::Specification.new do |s|
-  s.name = 'bing_ads_api'
+  s.name = 'bing_ads_api_v9'
   s.version = BingAdsApi::ApiConfig::CLIENT_LIB_VERSION
-  s.summary = 'Ruby wrapper for Bing Ads API'
-  s.description = 'Ruby wrapper for Bing Ads API'
+  s.summary = 'Ruby wrapper for Bing Ads API v9'
+  s.description = 'Ruby wrapper for Bing Ads API v9'
   s.homepage = 'https://github.com/arambert/bing_ads_api'
   s.authors = ['Adrien Rambert']
   s.email = ['adrien@rambert.me']
