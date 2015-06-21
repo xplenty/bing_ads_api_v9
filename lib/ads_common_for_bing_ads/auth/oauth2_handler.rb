@@ -25,7 +25,7 @@ module AdsCommonForBingAds
                                                           :scope => @scope,
                                                           :redirect_uri => credentials[:oauth2_callback] || DEFAULT_CALLBACK,
                                                           :state => credentials[:oauth2_state],
-                                                          :refresh_token => credentials[:oauth2_token][:refresh_token]
+                                                          :refresh_token => credentials[:oauth2_token][:refresh_token],
                                                           :access_token => credentials[:oauth2_token][:access_token]
                                                       }).reject {|k, v| v.nil?}
         client = Signet::OAuth2::Client.new(oauth_options_bing)  
