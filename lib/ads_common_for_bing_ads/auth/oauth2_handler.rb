@@ -29,7 +29,8 @@ module AdsCommonForBingAds
                                                           :access_token => credentials[:oauth2_token][:access_token]
                                                       }).reject {|k, v| v.nil?}
         client = Signet::OAuth2::Client.new(oauth_options_bing)  
-        client.refresh!
+        # Refresh client tokens unless access_token was provided
+        client.refresh! unless credentials[:oauth2_token][:access_token].present?
         return client
       end
     end
