@@ -43,9 +43,12 @@ GEM
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
+    nokogiri (1.6.8-x86-mingw32)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
     nori (1.1.5)
     pkg-config (1.1.7)
-    rack (1.6.4)
+    rack (1.6.12)
     rake (10.4.2)
     rspec (2.99.0)
       rspec-core (~> 2.99.0)
@@ -82,5 +85,9 @@ PLATFORMS
 
 DEPENDENCIES
   bing_ads_api_v9!
+  rack (>= 1.6.12)
   rake
   rspec (~> 2.8)
+
+BUNDLED WITH
+   1.16.6
